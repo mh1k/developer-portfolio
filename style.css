@@ -61,7 +61,47 @@ h1{
     padding-right: 30px;
 }
 
+.mid-bg{
+background-image: url(image/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+
+}
 .m-movies{
     font-size: 40px;
     text-align: center;
+    margin-bottom: 60px;
+}
+.movies-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 45px gray;
+    border-radius: 15px;
+}
+.link-more{
+    text-decoration: none;
+    color: orange;
+}
+
+#border-sh{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.others-movie{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
 }
